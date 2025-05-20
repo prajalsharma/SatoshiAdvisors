@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { motion, useCycle } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
-import LanguageSelector from "./LanguageSelector";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { MenuToggle } from "./MenuToggle";
 import { usePathname, useRouter } from "next/navigation";
@@ -111,7 +110,7 @@ const Header = () => {
               height={68}
               src="/assets/planob.svg"
               alt="Plano B logo"
-              className="size-17 md:size-29.5"
+              className="size-17 md:size-28"
               priority
             />
             <p className="-translate-x-2"> Satoshi Advisors</p>
@@ -119,12 +118,12 @@ const Header = () => {
         </div>
 
         {largeScreen && (
-          <ul className="font-medium gap-8 text-lg flex mr-30">
+          <ul className="font-medium gap-8 text-lg flex mr-65">
             {links.map((link, index) => (
               <li key={index}>
                 <button
                   onClick={() => handleContact(link)}
-                  className="hover:text-primary-blue transition-colors relative link-underline">
+                  className="hover:text-primary-blue transition-colors relative link-underline cursor-pointer">
                   {link.name}
                 </button>
               </li>
@@ -133,7 +132,6 @@ const Header = () => {
         )}
 
         <motion.div className="flex items-center gap-4 relative">
-          <LanguageSelector />
           {!largeScreen && (
             <motion.div
               initial={false}
