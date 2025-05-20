@@ -362,26 +362,36 @@ const SixthSection = () => {
               {advisor.description}
             </p>
             <div className="flex justify-center gap-6 text-xl">
-              <a
-                href="https://x.com/carraresi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-primary-blue p-2 rounded-xl transition hover:opacity-55">
-                <Image width={36} height={36} src="/assets/x-dark.svg" alt="" className="size-9" />
-              </a>
-              <a
-                href="https://es.linkedin.com/in/rodrigocarraresi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-primary-blue p-2 rounded-xl transition hover:opacity-55">
-                <Image
-                  width={36}
-                  height={36}
-                  src="/assets/linkedin.svg"
-                  alt=""
-                  className="size-9"
-                />
-              </a>
+              {advisor.x && (
+                <a
+                  href={advisor.x}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary-blue p-2 rounded-xl transition hover:opacity-55">
+                  <Image
+                    width={36}
+                    height={36}
+                    src="/assets/x-dark.svg"
+                    alt=""
+                    className="size-9"
+                  />
+                </a>
+              )}
+              {advisor.linkedin && (
+                <a
+                  href={advisor.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary-blue p-2 rounded-xl transition hover:opacity-55">
+                  <Image
+                    width={36}
+                    height={36}
+                    src="/assets/linkedin.svg"
+                    alt=""
+                    className="size-9"
+                  />
+                </a>
+              )}
             </div>
           </motion.div>
         </AnimatePresence>
