@@ -317,7 +317,7 @@ const SixthSection = () => {
   return (
     <section id="aboutus" className="sixth pt-20 bg-white text-center px-4 relative">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-black mb-10">Why I created plano B</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-black mb-10">Our Advisors</h2>
         {advisors.length > 1 && (
           <>
             <div className="absolute flex gap-2 top-[30%] left-4">
