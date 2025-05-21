@@ -27,24 +27,24 @@ export default function Home() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-6 leading-tight">
-            Bitcoin Solutions
-            <br className="hidden md:block" /> made Simple
+            Master Bitcoin
+            <br className="hidden md:block" /> with Confidence
           </h1>
           <p className="text-lg text-gray-600 mb-10">
-            From education to inheritance planning:
+            Personalized education, tailored consultancy,
             <br />
-            Your journey with Bitcoin starts here.
+            and secure storage for your digital future.
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
             {" "}
             <Link href="/blogs">
               <button className="bg-primary-blue hover:opacity-50 text-white px-6 py-3 text-base font-medium rounded-md shadow transition-all">
-                Know More
+                Learn More
               </button>
             </Link>
             <a href="#contact">
               <button className="bg-white text-black border border-gray-300 hover:bg-gray-100 px-6 py-3 text-base font-medium rounded-md shadow transition-all">
-                Contact Us
+                Get Started
               </button>
             </a>
           </div>
@@ -69,7 +69,7 @@ const SecondSection = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold text-black mb-12 flex items-center justify-center gap-2">
-          What Plan B offers{" "}
+          What Satoshi Advisors offer{" "}
           <span className="inline-block">
             <LifeBuoy size={36} />
           </span>
@@ -85,13 +85,13 @@ const SecondSection = () => {
               <BookOpenCheck size={36} />
             </div>
             <h3 className="text-xl font-semibold text-black mb-2">
-              Education <br /> in Bitcoin
+              Bitcoin <br /> Education
             </h3>
-            <p className="text-gray-600 mb-4">We make Bitcoin easy to understand</p>
+            <p className="text-gray-600 mb-4">We break down how Bitcoin works so you can use it confidently.</p>
             <a
               href="/blogs"
               className="bg-white hover:bg-primary-blue border-2 border-primary-blue text-primary-blue hover:text-white px-5 py-2 rounded-md transition-all">
-              Explore
+              Start Learning
             </a>
           </motion.div>
 
@@ -105,16 +105,16 @@ const SecondSection = () => {
               <ShieldCheck size={36} />
             </div>
             <h3 className="text-xl font-semibold text-black mb-2">
-              Consultancy
-              <br /> in Security
+              1:1 Consultancy
+             
             </h3>
             <p className="text-gray-600 mb-4">
-              Learn best practices for storing your Bitcoin securely
+              Tailored sessions to guide your journey at your own pace.
             </p>
             <a
               href="#aboutus"
               className="bg-white hover:bg-primary-blue border-2 border-primary-blue text-primary-blue hover:text-white px-5 py-2 rounded-md transition-all">
-              Learn More
+              Book a Session
             </a>
           </motion.div>
 
@@ -131,11 +131,11 @@ const SecondSection = () => {
               Inheritances and
               <br /> Recovery
             </h3>
-            <p className="text-gray-600 mb-4">Protect your future with reliable solutions</p>
+            <p className="text-gray-600 mb-4">Set up multisig wallets and inheritance plans with expert help.</p>
             <a
               href="#contact"
               className="bg-white hover:bg-primary-blue border-2 border-primary-blue text-primary-blue hover:text-white px-5 py-2 rounded-md transition-all">
-              Contact Us
+              Secure My Assets
             </a>
           </motion.div>
         </div>
@@ -146,10 +146,10 @@ const SecondSection = () => {
 
 const ThirdSection = () => {
   const points = [
-    " Simple and straightforward language",
-    " Exclusive focus on Bitcoin",
-    " Practical solutions for security and financial planning",
-    " Customized support for your needs",
+    " Clear and simple language for all levels",
+    " 100% focus on Bitcoin, no distractions",
+    " Personalized 1:1 consultancy to meet your goals",
+    " Secure asset protection with multisig solutions",
   ];
 
   return (
@@ -161,7 +161,7 @@ const ThirdSection = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold mb-8 flex items-center justify-center gap-2">
-          Why choose plano B
+          Why choose Satoshi Advisors
           <Target size={36} className="text-white" />
         </motion.h2>
 
@@ -187,7 +187,7 @@ const ThirdSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="text-base md:text-lg text-white/90 text-center">
-          With plano B, you learn how to use Bitcoin safely and efficiently, ensuring the protection
+          With Satoshi Advisors, you learn how to use Bitcoin safely and efficiently, ensuring the protection
           of your digital asset now and in the future.
         </motion.p>
       </div>
@@ -279,31 +279,30 @@ const advisors = [
     linkedin: "https://es.linkedin.com/in/rodrigocarraresi",
   },
   {
+    name: "Nico Marotta",
+    image: "/assets/nico.jpeg",
+    title: "Community Lead at Acre",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    x: "https://x.com/nico186_",
+    linkedin: "https://www.linkedin.com/in/nico-marotta-msd",
+  },
+  {
+    name: "William Pyke",
+    image: "/assets/william.jpeg",
+    title: "Moderator at Fluidity, Superposition, Mezo and Acre",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    x: "https://x.com/carraresi",
+    linkedin: "https://es.linkedin.com/in/rodrigocarraresi",
+  },{
     name: "Prajal Sharma",
     image: "/assets/prajal.jpeg",
-    title: "lorem ipsum dolor sit amet",
+    title: "Bitcoin Native Devrel Educator and Advisor",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-    x: "https://x.com/carraresi",
-    linkedin: "https://es.linkedin.com/in/rodrigocarraresi",
-  },
-  {
-    name: "Nico",
-    image: "/assets/nico.jpeg",
-    title: "lorem ipsum dolor sit amet",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-    x: "https://x.com/carraresi",
-    linkedin: "https://es.linkedin.com/in/rodrigocarraresi",
-  },
-  {
-    name: "William",
-    image: "/assets/william.jpeg",
-    title: "lorem ipsum dolor sit amet",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-    x: "https://x.com/carraresi",
-    linkedin: "https://es.linkedin.com/in/rodrigocarraresi",
+    x: "https://x.com/0xPrajal",
+    linkedin: "https://www.linkedin.com/in/prajal-sharma-72b125206/",
   },
 ];
 
