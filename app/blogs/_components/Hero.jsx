@@ -3,11 +3,11 @@ const Hero = () => {
     <section className="pt-50 text-center pb-15 flex flex-col items-center justify-center gap-4">
       <div className="flex flex-col items-center gap-4">
         <h1 className="font-bold text-2xl md:text-[2.5rem] flex flex-col items-center gap-2 text-primary-blue">
-          <span>Simplificando o Bitcoin,</span>
-          uma sexta-feira de cada vez.
+          <span>Simplifying Bitcoin,</span>
+          one Friday at a time.
         </h1>
         <p className="px-4 md:text-lg">
-          Assine conteúdos de Bitcoin simples e de alto nível, feitos sob medida para suas necessidades financeiras.
+          Subscribe to high-quality, easy-to-understand Bitcoin content tailored to your financial needs.
         </p>
       </div>
       <div className="w-[90%] md:w-[65%] flex justify-center">
