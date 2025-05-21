@@ -11,9 +11,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "plano B",
+  title: "Satoshi Advisors",
   description:
-    "Artigos em português sobre Bitcoin, segurança, educação financeira e descentralização.",
+    "Articles in Portuguese about Bitcoin, security, financial education, and decentralization.",
   icons: {
     icon: {
       url: "https://web3grants.s3.us-east-1.amazonaws.com/planob.svg",
