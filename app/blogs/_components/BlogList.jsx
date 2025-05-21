@@ -38,7 +38,7 @@ export default function BlogList() {
       <div className="blog-main">
         <div className="flex items-center gap-4">
           <h2 className="blog-section-title shrink-0">
-            Últimos artigos do plano B
+            Latest articles from Satoshi Adviasors
           </h2>
           <span className="w-[95%] h-[0.1px] bg-[#e2e2e2] mb-6" />
         </div>
