@@ -15,8 +15,8 @@ export default function Footer() {
             className="size-29.5"
           />
           <div className="text-center md:text-left">
-            <h4 className="text-xl font-bold">plano B</h4>
-            <p>Clareza e confiança na educação sobre Bitcoin.</p>
+            <h4 className="text-xl font-bold">Satoshi Advisors</h4>
+            <p>Clarity and confidence in Bitcoin education.</p>
           </div>
         </div>
 
@@ -44,7 +44,7 @@ export default function Footer() {
         {/* Newsletter form (Beehiiv) */}
         <div className="flex flex-col text-center md:text-left w-full md:w-auto text-sm justify-center items-center">
           <h5 className="font-semibold mb-2">
-            Assine nossa newsletter para receber novidades direto no seu e-mail
+            Subscribe to our newsletter to receive updates straight to your inbox.
           </h5>
           <div className="md:w-full">
             <iframe
