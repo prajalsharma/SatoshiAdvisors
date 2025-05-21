@@ -64,7 +64,7 @@ export default function BlogList() {
           </div>
         ) : (
           <p style={{ marginTop: "2rem", color: "#90a0cd" }}>
-            Nenhum blog encontrado. Por favor, tente novamente mais tarde.
+            No blog posts found. Please try again later.
           </p>
         )}
 
@@ -86,7 +86,7 @@ export default function BlogList() {
 
       <aside className="blog-sidebar lg:w-[300px]">
         <div className="flex items-center gap-4 col-span-2">
-          <h3 className="sidebar-title shrink-0"> Posts Fixados</h3>
+          <h3 className="sidebar-title shrink-0"> Pinned Posts</h3>
           <span className="w-[95%] h-[0.1px] bg-[#e2e2e2] mb-2" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-2 w-full">
@@ -96,15 +96,15 @@ export default function BlogList() {
         </div>
         <div className="flex flex-col gap-4 mt-8">
           <div className="flex items-center gap-4 col-span-2">
-            <h3 className="sidebar-title shrink-0">Inscreva-se</h3>
+            <h3 className="sidebar-title shrink-0">Subscribe</h3>
             <span className="w-[95%] h-[0.1px] bg-[#e2e2e2] mb-2" />
           </div>
           <div className="bg-[#f6f6f6] p-4 rounded-lg">
             <h4 className="font-bold text-lg">
-              Assine e aprenda a usar Bitcoin com confiança.
+              Subscribe and learn to use Bitcoin with confidence.
             </h4>
             <p className="text-sm text-muted-foreground my-2">
-              Inscreva-se na newsletter para receber todas as atualizações.
+               Subscribe to the newsletter to receive all updates.
             </p>
             <iframe
               src="https://embeds.beehiiv.com/09dd87db-dd35-4482-897d-1a30c52ec426?slim=true"
