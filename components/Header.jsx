@@ -66,7 +66,7 @@ const Header = () => {
 
   const links = [
     { name: isEnglish ? "Blog" : "Blogs", url: "/blogs" },
-    { name: isEnglish ? "Contact Us" : "Fale conosco", url: "#contact" },
+    { name: isEnglish ? "Contact Us" : "Contact us", url: "#contact" },
   ];
 
   useEffect(() => {
